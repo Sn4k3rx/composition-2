@@ -21,14 +21,18 @@ public class Program {
 		p1.addComment(c2);
 		
 
-		Comment c3 = new Comment("Ramon é muito gato :)");
-		Comment c4 = new Comment("Eu pegava esse lindo");
+		Comment c3 = new Comment("asijf asifasi asifjas fsaifjasif");
+		Comment c4 = new Comment("asifj saijf 21edqw d2 1e12");
 
 		Post p2 = new Post(sdf.parse("30/05/2002 00:00:00"), "RAMON", "O terror das novinhas", 5000000);
-
+		
 		p2.addComment(c3);
 		p2.addComment(c4);
 
+		System.out.println(p1);
+		System.out.println(p2);
+		
+		
 	}
 
 }
